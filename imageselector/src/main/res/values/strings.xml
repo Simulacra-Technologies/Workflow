@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">imageselector</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_more_images">Add More Images</string>
+    <string name="remove">Remove</string>
+    <string name="camera_app_not_available">Please install and enable a camera application to click a picture.</string>
+    <string name="gallery_app_not_available">Please install and enable a gallery or file manager application to choose an image from the gallery to upload.</string>
+</resources>

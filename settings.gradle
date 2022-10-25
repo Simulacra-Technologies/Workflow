@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Workflow"
 include ':app'
+include ':imageselector'
+include ':base'

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".component.LabelledTextView">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_labelled_textview_label"
+        style="@style/HintRegular12"
+        android:drawablePadding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Label" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_labelled_textview_text"
+        style="@style/PrimaryRegular14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        app:layout_constraintStart_toStartOf="@+id/tv_labelled_textview_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_labelled_textview_label"
+        tools:text="Value" />
+</merge>

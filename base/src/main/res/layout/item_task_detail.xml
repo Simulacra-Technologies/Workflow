@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen10">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ItemTaskDetailImageHeight"
+        android:background="@color/image_icon_color_bg"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_image_placeholder" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:layout_weight="0.25"
+            android:orientation="vertical">
+
+            <com.simulacratech.base.component.LabelledTextView
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen5"
+                android:layout_marginBottom="@dimen/dimen5"
+                android:textSize="@dimen/ItemTaskDetailLabelTextSize"
+                app:label="ID:"
+                app:value="H324123"
+                app:valueColor="@color/black" />
+
+            <com.simulacratech.base.component.TextAndIconLayout
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dimen10"
+                app:iconResource="@drawable/ic_baseline_location_on_24"
+                app:textContent="Location" />
+
+            <com.simulacratech.base.component.TextAndIconLayout
+                android:id="@+id/calender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:iconResource="@drawable/ic_baseline_location_on_24"
+                app:textContent="Calender" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen20"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/total_risk"
+                android:textColor="@color/colorHint"
+                android:textSize="@dimen/ItemTaskDetailLabelTextSize" />
+
+            <com.simulacratech.base.component.TextAndIconLayout
+                android:id="@+id/totalRisk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:iconResource="@drawable/ic_baseline_location_on_24"
+                app:textContent="@string/na" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.simulacratech.base.component.LabelledTextView
+                android:id="@+id/criticalityScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen5"
+                android:textSize="@dimen/ItemTaskDetailLabelTextSize"
+                app:label="Criticality Score"
+                app:value="19.72"
+                app:valueColor="@color/black"
+                tools:text="Criticality Score" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.simulacratech.base.component.LabelledTextView
+                android:id="@+id/metersImpacted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen5"
+                android:textSize="@dimen/ItemTaskDetailLabelTextSize"
+                app:label="Meters Impacted"
+                app:value="19.72"
+                app:valueColor="@color/black" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+

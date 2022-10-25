@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="common">
+        <attr name="hint" format="string" />
+        <attr name="label" format="string" />
+        <attr name="value" format="string" />
+        <attr name="background" format="reference" />
+        <attr name="drawableStart" format="reference" />
+        <attr name="drawableEnd" format="reference" />
+        <attr name="inputType" format="enum">
+            <enum name="name" value="0" />
+            <enum name="phone" value="1" />
+            <enum name="password" value="2" />
+            <enum name="email" value="3" />
+            <enum name="allCaps" value="4" />
+            <enum name="number" value="5" />
+            <enum name="disabled" value="6" />
+        </attr>
+
+        <attr name="drawableImage" format="reference" />
+        <attr name="drawableImageTintColor" format="color" />
+        <attr name="backgroundTintColor" format="reference" />
+        <attr name="hideLabel" format="boolean" />
+        <attr name="isValueTextBold" format="boolean" />
+        <attr name="isValueUnderlined" format="boolean" />
+        <attr name="valueColor" format="color" />
+        <attr name="verticalPaddingOfDrawableLeft" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LabelledTextView">
+        <attr name="drawableEnd" />
+        <attr name="drawableStart" />
+        <attr name="background" />
+        <attr name="value" />
+        <attr name="label" />
+        <attr name="isValueTextBold" />
+        <attr name="isValueUnderlined" />
+        <attr name="valueColor" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSpinner">
+        <attr name="title" />
+        <attr name="android:hint" />
+        <attr name="label" />
+        <attr name="background" />
+        <attr name="hint" />
+        <attr name="isBoldHolder" format="boolean" />
+        <attr name="source" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LayerItemCheckboxWithDropdown">
+        <attr name="isChecked" format="boolean" />
+        <attr name="checkboxTitle" format="string" />
+        <attr name="dropdownOptions" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TextAndIconLayout">
+        <attr name="textContent" format="string" />
+        <attr name="iconResource" format="reference" />
+    </declare-styleable>
+
+</resources>

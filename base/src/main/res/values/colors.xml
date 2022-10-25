@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorHint">#9d9b9b</color>
+    <color name="colorTextSecondary">#828282</color>
+    <color name="colorTextPrimary">#4f4f4f</color>
+    <color name="colorPrimary">#0d0f36</color>
+    <color name="colorPrimaryDark">#0d248e</color>
+    <color name="colorMidnightBlue">#223b72</color>
+    <color name="colorSlateGrey">#586c96</color>
+    <color name="colorAccent">#ef504d</color>
+    <color name="colorDisabledAccent">#B3ef504d</color>
+    <color name="colorWindowBackground">#e5e5e5</color>
+
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorDialogBackground">#CC231F20</color>
+    <color name="colorTransparentBlack">#800D0C0C</color>
+    <color name="colorFilterBackground">#F4F5FF</color>
+    <color name="transparent">#DADADA</color>
+
+    <color name="colorRed">#DA3936</color>
+    <color name="colorGreen">#2AAF63</color>
+    <color name="colorGreenLight">#1F2AAF63</color>
+    <color name="colorYellow">#FFBA68</color>
+    <color name="colorYellowText">#967614</color>
+    <color name="colorYellowLight">#1FF2C94C</color>
+    <color name="colorNormalHazard">#F2C94C</color>
+    <color name="colorOrange">#FF9B17</color>
+    <color name="colorOrangeLight">#1FFF9B17</color>
+    <color name="colorOrangeDark">#A83D30</color>
+    <color name="colorLightBlue">#56CCF2</color>
+    <color name="colorHyperlink">#2F80ED</color>
+    <color name="colorYellowContainer">#FFF0C3</color>
+    <color name="colorConductorLine">#6663FF</color>
+    <color name="colorImminentRiskLine">#901B12</color>
+    <color name="colorHighRiskLine">#E13532</color>
+    <color name="colorMediumRiskLine">#F58231</color>
+    <color name="colorLowRiskLine">#CDA30F</color>
+
+    <color name="colorRedLight">#FFEAEA</color>
+
+    <color name="translucent_black">#8000</color>
+
+    <color name="colorSwitch">#756BB1</color>
+    <color name="colorCutOut">#969696</color>
+    <color name="colorReclosure">#525252</color>
+    <color name="colorConductorYellowLine">#DBE11D</color>
+
+    <!-- Colors for legends-->
+    <!-- Hotspots/ AHP- Avg Customer Served -->
+    <color name="hotspot_avgCustomerServed_1000">#B4002B</color>
+    <color name="hotspot_avgCustomerServed_750">#E51083</color>
+    <color name="hotspot_avgCustomerServed_500">#FF6186</color>
+    <color name="hotspot_avgCustomerServed_250">#FFACAC</color>
+
+    <!-- Hotspots/ AHP- Criticality -->
+    <color name="hotspot_criticality_100">#901B12</color>
+    <color name="hotspot_criticality_75">#E13532</color>
+    <color name="hotspot_criticality_50">#F58231</color>
+    <color name="hotspot_criticality_25">#CDA30F</color>
+
+    <!-- Span - # of customers -->
+    <color name="span_no_of_customers_served_250">#756BB1</color>
+    <color name="span_no_of_customers_served_500">#D95F0E</color>
+    <color name="span_no_of_customers_served_750">#636363</color>
+    <color name="span_no_of_customers_served_1000">#252525</color>
+
+    <!-- Span - # of phases -->
+    <color name="span_no_of_phases_1">#2C7FB8</color>
+    <color name="span_no_of_phases_2">#D95F0E</color>
+    <color name="span_no_of_phases_3">#BD0026</color>
+
+    <!-- Span - Voltage Level -->
+    <color name="span_voltage_level_5">#756BB1</color>
+    <color name="span_voltage_level_10">#D95F0E</color>
+    <color name="span_voltage_level_15">#636363</color>
+    <color name="span_voltage_level_25">#252525</color>
+
+    <!-- Risk Module -->
+    <!-- Risk Type rounded rectangle background colors -->
+    <color name="low_risk_bg">#C0DAFF</color>
+    <color name="medium_risk_bg">#FFECD4</color>
+    <color name="high_risk_bg">#FFEBE6</color>
+
+    <!-- Risk Type icon colors -->
+    <color name="low_risk_icon_color">#0747A6</color>
+    <color name="medium_risk_icon_color">#FF8B00</color>
+    <color name="high_risk_icon_color">#BF2600</color>
+    <color name="bucket_map_legend">#F84B47</color>
+    <color name="conventional_map_legend">#7177F4</color>
+    <color name="pole_clear_map_legend">#FCB018</color>
+    <color name="brush_fog_map_legend">#62d981</color>
+    <color name="hand_cut_map_legend">#1bebf2</color>
+    <color name="clear_span_map_legend">#1baba2</color>
+    <color name="chip_map_legend">#DF2DB4</color>
+    <color name="noChip_map_legend">#9F1F42</color>
+    <color name="na_map_legend">#1D7EE5</color>
+    <color name="one_sided_legend">#F8B9A1</color>
+    <color name="two_sided_map_legend">#9F1F42</color>
+    <color name="single_tree_prune_legend">#FA8500</color>
+    <color name="na_no_of_sides_map_legend">#579568</color>
+    <color name="layer_pop_up_content_background_light_black">#242323</color>
+    <color name="progress_line_color">#AEB5F1</color>
+
+    <color name="light_grey_rectangle_border">#DEDEDE</color>
+    <color name="light_grey_separator">#C7C7C7</color>
+    <color name="lighter_grey_separator">#E0E0E0</color>
+    <color name="progressOfProgressBar">#3573B9</color>
+    <color name="backgroundOfProgressBar">#DBDBDB</color>
+    <color name="circular_button_border">#919DB9</color>
+    <color name="navy_blue">#143877</color>
+    <!-- colors for WUI tier in work type -->
+    <color name="wui_tier0">#4D86C5</color>
+    <color name="wui_tier1">#BF2600</color>
+    <color name="wui_tier2">#DF7A01</color>
+    <color name="wui_tier3">#0C9F09</color>
+
+    <color name="pale_orange">#FFEDC0</color>
+    <color name="secondary_blue">#596C96</color>
+    <color name="secondary_light_blue">#C7CEDC</color>
+    <color name="span_conductor_line">#EB8B3E</color>
+    <color name="unselected_slider_color">#BDBBCF</color>
+
+    <!--Assessment status-->
+    <color name="assessment_status_started_textColor">@color/low_risk_icon_color</color>
+    <color name="assessment_status_started_backgroundColor">#F2F4FF</color>
+    <color name="assessment_status_notStarted_textColor">@color/wui_tier2</color>
+    <color name="assessment_status_notStarted_backgroundColor">#FFFCF2</color>
+    <color name="assessment_status_completed_textColor">#09849F</color>
+    <color name="assessment_status_completed_backgroundColor">#EDFFFB</color>
+    <color name="image_icon_color_bg">#F5F8FF</color>
+    <color name="clear_transparent">#00ffffff</color>
+</resources>

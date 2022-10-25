@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">base</string>
+    <string name="na">NA</string>
+    <string name="dollar_text">$%1$s</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="generic_error_message">Something went wrong! Please try again after sometime.</string>
+    <string name="total_risk">Risk</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+
+    <string name="time_ago">%1$d %2$s ago</string>
+    <string name="complete_due_date">Complete in next %1$d %2$s</string>
+
+    <string name="hours_mins_value">%1$s Hrs : %2$s Min</string>
+    <string name="hours_mins_value_short">%1$sh : %2$sm</string>
+
+    <plurals name="days">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+
+    <plurals name="years">
+        <item quantity="one">year</item>
+        <item quantity="other">years</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">hour</item>
+        <item quantity="other">hours</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">minute</item>
+        <item quantity="other">minutes</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <dimen name="dimenDrawablePadding">4dp</dimen>
+    <dimen name="dimen30">30dp</dimen>
+    <item name="toast_size" format="float" type="dimen">1.0</item>
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="button_text_size_small">11sp</dimen>
+    <dimen name="small_button_height">38dp</dimen>
+    <dimen name="curve_radius55">55dp</dimen>
+    <dimen name="ImageAndTextViewCustomMarginStart">6dp</dimen>
+    <dimen name="ImageAndTextViewCustomMarginTop">3dp</dimen>
+    <dimen name="ImageAndTextViewCustomMarginEnd">15dp</dimen>
+    <dimen name="ImageAndTextViewCustomLabelTextSize">12sp</dimen>
+    <dimen name="dimen10">10dp</dimen>
+    <dimen name="ItemTaskDetailImageHeight">200dp</dimen>
+    <dimen name="LayoutTaskCardCornerRadius">10dp</dimen>
+    <dimen name="LayoutTaskCardMargin">10dp</dimen>
+    <dimen name="ItemTaskDetailLabelTextSize">12sp</dimen>
+    <dimen name="dimen5">5dp</dimen>
+    <dimen name="dimen20">20dp</dimen>
+</resources>

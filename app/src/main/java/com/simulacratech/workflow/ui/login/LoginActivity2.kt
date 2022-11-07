@@ -1,6 +1,7 @@
 package com.simulacratech.workflow.ui.login
 
 import android.app.Activity
+import android.content.Intent
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -12,6 +13,7 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.Toast
+import com.simulacratech.workflow.CameraActivity
 import com.simulacratech.workflow.databinding.ActivityLogin2Binding
 
 import com.simulacratech.workflow.R
@@ -62,6 +64,7 @@ class LoginActivity2 : AppCompatActivity() {
             setResult(Activity.RESULT_OK)
 
             //Complete and destroy login activity once successful
+            startActivity(Intent(this,CameraActivity::class.java))
             finish()
         })
 

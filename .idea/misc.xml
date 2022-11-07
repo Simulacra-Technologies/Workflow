@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Sumanta Chatterjee/AndroidStudioProjects/Workflow2/app/src/main/res/layout/activity_camera.xml" value="0.18229166666666666" />
         <entry key="..\:/Users/Sumanta Chatterjee/AndroidStudioProjects/Workflow2/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/Sumanta Chatterjee/AndroidStudioProjects/Workflow2/app/src/main/res/layout/activity_main.xml" value="0.125" />
+        <entry key="..\:/Users/Sumanta Chatterjee/AndroidStudioProjects/Workflow2/app/src/main/res/layout/fragment_score_addition.xml" value="0.10520833333333333" />
       </map>
     </option>
   </component>
